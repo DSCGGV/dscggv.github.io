@@ -52,8 +52,49 @@
     >
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" height="50" alt="DSC icon" />
+          <img data-src="images/logo.png" height="50" alt="DSC icon" />
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="menu-icon__circle"> </span>
+          <span class="menu-icon">
+            <span class="menu-icon__bar"></span>
+            <span class="menu-icon__bar"></span>
+            <span class="menu-icon__bar"></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#overview"
+                >Overview
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#technologies" class="nav-link">Technologies</a>
+            </li>
+            <li class="nav-item active">
+              <a href="schedule.html" class="nav-link">Schedule</a>
+            </li>
+            <!-- <li class="nav-item"><a class="nav-link" href="learn\index.html">Learn</a></li> -->
+
+            <li class="nav-item">
+              <a href="#workshops" class="nav-link">Workshops</a>
+            </li>
+            <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+            <!-- <li class="nav-item">
+                      <a class="nav-link" href="https://medium.com/search?q=DSCUniversityName" target="_blank" rel="noopener">Stories</a>
+                  </li> -->
+          </ul>
+        </div>
       </div>
     </nav>
     <section class="mytabs_area p_120">
@@ -62,8 +103,14 @@
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
               <a
-                class="nav-link active" href = "index.html"
-                >Back To Main Page</a
+                class="nav-link active"
+                id="home-tab"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >SCHEDULE</a
               >
             </li>
           </ul>
@@ -80,13 +127,16 @@
                   <div class="media">
                     <div class="d-flex">
                       <p>
-                        07<sup style="color: aliceblue">th</sup> December
+                        09<sup style="color: aliceblue">th</sup> December
                         2020<br />11:00 am - 01:00 pm
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>Introduction</h4>
-                      <p>Speaker</p>
+                      <h4>Inauguration Session</h4>
+                      <p>
+                        Speaker: Coordinator (first year), Dean<br />
+                        Dr. G.R. Sinha Adjunct Professsor (IIIT Banglore)
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -95,13 +145,17 @@
                   <div class="media">
                     <div class="d-flex">
                       <p>
-                        07<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
+                        09<sup style="color: aliceblue">th</sup> December
+                        2020<br />12:30 pm - 1:30 pm
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>Transition from School to College</h4>
-                      <p>Speaker</p>
+                      <h4>How to Shape Up your future?</h4>
+                      <p>
+                        Speaker: Mr. Deepak Verma<br />(Senior Technologist &
+                        Regional manager in India & Asia Pacific at Media Tek
+                        India)
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -110,13 +164,13 @@
                   <div class="media">
                     <div class="d-flex">
                       <p>
-                        08<sup style="color: aliceblue">th</sup> December
-                        2020<br />11:00 am - 01:00 pm
+                        09<sup style="color: aliceblue">th</sup> December
+                        2020<br />2:30 pm - 5:30 pm
                       </p>
                     </div>
                     <div class="media-body">
                       <h4>Mental Health Awareness</h4>
-                      <p>Speaker</p>
+                      <p>(Expert Speaker & Volunteers from DSC Club, GGV)</p>
                     </div>
                   </div>
                 </li>
@@ -125,43 +179,13 @@
                   <div class="media">
                     <div class="d-flex">
                       <p>
-                        08<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
+                        10<sup style="color: aliceblue">th</sup> December
+                        2020<br />11:00 am - 01:00 pm
                       </p>
                     </div>
                     <div class="media-body">
                       <h4>University Culture & Onine Campus Tour</h4>
-                      <p>Speaker</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <span></span>
-                  <div class="media">
-                    <div class="d-flex">
-                      <p>
-                        09<sup style="color: aliceblue">th</sup> December
-                        2020<br />11:00 am - 01:00 pm
-                      </p>
-                    </div>
-                    <div class="media-body">
-                      <h4>Art of Public Speaking & Importance of English</h4>
-                      <p>Speaker</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <span></span>
-                  <div class="media">
-                    <div class="d-flex">
-                      <p>
-                        09<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
-                      </p>
-                    </div>
-                    <div class="media-body">
-                      <h4>Networking and Use of Linkedin</h4>
-                      <p>Speaker</p>
+                      <p>Speaker: Volunteers from DSC Club, GGV</p>
                     </div>
                   </div>
                 </li>
@@ -171,27 +195,15 @@
                     <div class="d-flex">
                       <p>
                         10<sup style="color: aliceblue">th</sup> December
-                        2020<br />11:00 am - 01:00 pm
+                        2020<br />02:00 pm - 05:00 pm
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>Need for Extra-Curricular Activities</h4>
-                      <p>Speaker</p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <span></span>
-                  <div class="media">
-                    <div class="d-flex">
-                      <p>
-                        10<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
-                      </p>
-                    </div>
-                    <div class="media-body">
-                      <h4>Introduction to Official Clubs of GGV/ activites</h4>
-                      <p>Speaker</p>
+                      <h4>
+                        Transition from School to College<br />Need for
+                        Extra-Curricular Activities
+                      </h4>
+                      <p>Speaker: Volunteers from DSC Club, GGV</p>
                     </div>
                   </div>
                 </li>
@@ -206,26 +218,33 @@
                     </div>
                     <div class="media-body">
                       <h4>
-                        Overview of fields related to DSC clubs & Trending
-                        Skills 2020-21
+                        Art of Public Speaking & General Communication<br />Networking
+                        and Use of Linkedin
                       </h4>
-                      <p>Speaker</p>
+                      <p>
+                        Speaker: Expert Speakers/Volunteers from DSC Club, GGV
+                      </p>
                     </div>
                   </div>
                 </li>
-
                 <li>
                   <span></span>
                   <div class="media">
                     <div class="d-flex">
                       <p>
                         11<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
+                        2020<br />02:00 pm - 05:00 pm
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>Things to do in colleges/activities</h4>
-                      <p>Speaker</p>
+                      <h4>
+                        Things to do in colleges/activities<br />Introduction to
+                        Official Clubs of GGV/ activites
+                      </h4>
+                      <p>
+                        Speaker: Different University Clubs &Volunteers from DSC
+                        Club, GGV
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -239,8 +258,11 @@
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>Career Guidance Talk ( GATE, CAT, Placement, etc)</h4>
-                      <p>Speaker</p>
+                      <h4>
+                        Overview of fields related to DSC Clubs & Trending
+                        Skills 2020-21
+                      </h4>
+                      <p>Speaker: Volunteers from DSC Club, GGV</p>
                     </div>
                   </div>
                 </li>
@@ -250,12 +272,12 @@
                     <div class="d-flex">
                       <p>
                         12<sup style="color: aliceblue">th</sup> December
-                        2020<br />03:00 pm - 05:00 pm
+                        2020<br />02:00 pm - 05:00 pm
                       </p>
                     </div>
                     <div class="media-body">
-                      <h4>What you expect from GGV?</h4>
-                      <p>Speaker</p>
+                      <h4>Discussion Panel</h4>
+                      <p>Speaker: Team Nexus</p>
                     </div>
                   </div>
                 </li>
