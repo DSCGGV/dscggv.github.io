@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 03/04/2019 06:02
+  	Creation date: 26/02/2021 06:02
   	*/
 
 @font-face {
@@ -25,20 +25,16 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-startup:before { content: "\f100"; }
-.flaticon-graphic-design:before { content: "\f101"; }
-.flaticon-settings:before { content: "\f102"; }
-.flaticon-idea:before { content: "\f103"; }
-.flaticon-smartphone:before { content: "\f104"; }
-.flaticon-head:before { content: "\f105"; }
+.flaticon-blogger:before { content: "\f100"; }
+.flaticon-computer-graphic:before { content: "\f101"; }
+.flaticon-documents:before { content: "\f102"; }
+.flaticon-artificial-intelligence:before { content: "\f103"; }
+.flaticon-coding:before { content: "\f104"; }
+.flaticon-web-programming:before { content: "\f105"; }
+.flaticon-cyber-security:before { content: "\f106"; }
+.flaticon-computer:before { content: "\f107"; }
