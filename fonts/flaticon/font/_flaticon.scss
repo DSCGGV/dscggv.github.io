@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 03/04/2019 06:02
+    Creation date: 26/02/2021 06:02
     */
 
     @font-face {
@@ -37,16 +37,20 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-startup:before { content: "\f100"; }
-.flaticon-graphic-design:before { content: "\f101"; }
-.flaticon-settings:before { content: "\f102"; }
-.flaticon-idea:before { content: "\f103"; }
-.flaticon-smartphone:before { content: "\f104"; }
-.flaticon-head:before { content: "\f105"; }
+    .flaticon-blogger:before { content: "\f100"; }
+.flaticon-computer-graphic:before { content: "\f101"; }
+.flaticon-documents:before { content: "\f102"; }
+.flaticon-artificial-intelligence:before { content: "\f103"; }
+.flaticon-coding:before { content: "\f104"; }
+.flaticon-web-programming:before { content: "\f105"; }
+.flaticon-cyber-security:before { content: "\f106"; }
+.flaticon-computer:before { content: "\f107"; }
     
-    $font-Flaticon-startup: "\f100";
-    $font-Flaticon-graphic-design: "\f101";
-    $font-Flaticon-settings: "\f102";
-    $font-Flaticon-idea: "\f103";
-    $font-Flaticon-smartphone: "\f104";
-    $font-Flaticon-head: "\f105";
+    $font-Flaticon-blogger: "\f100";
+    $font-Flaticon-computer-graphic: "\f101";
+    $font-Flaticon-documents: "\f102";
+    $font-Flaticon-artificial-intelligence: "\f103";
+    $font-Flaticon-coding: "\f104";
+    $font-Flaticon-web-programming: "\f105";
+    $font-Flaticon-cyber-security: "\f106";
+    $font-Flaticon-computer: "\f107";
