@@ -2800,7 +2800,6 @@ hr {
   text-transform: uppercase;
 }
 
-
 .feature_item p {
   margin-bottom: 0px;
   font-size: 15px;
@@ -3562,7 +3561,30 @@ hr {
     font-weight: 500;
   }
 }
+/*----------------------------SPONSORS-------------------------*/
+.sponsors {
+  padding: 15px 0;
+  text-align: center;
+}
 
+.sponsors img {
+  max-width: 75%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100%);
+}
+
+.sponsors img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .sponsors img {
+    max-width: 40%;
+  }
+}
 /* End My Tabs Area css
 ============================================================================================ */
 
