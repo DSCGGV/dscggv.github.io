@@ -594,7 +594,7 @@ blockquote:before {
   line-height: 0;
   left: -10px;
   position: relative;
-  top: 30px;
+  top: 20px;
   color: #9cabf0;
   font-size: 3em;
 }
